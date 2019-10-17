@@ -112,7 +112,7 @@ void __f(const char *names, Arg1 &&arg1, Args &&... args) {
 	cout.write(names,comma-names)<<" : "<<arg1<<" | ";
 	__f(comma+1,args...);
 }
-#elsehea
+#else
 #define trace(...)
 #define endl '\n'
 #endif
