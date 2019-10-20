@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #pragma GCC optimize("O3")
+#pragma GCC optimize("Ofast")
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 #include <ext/rope>
