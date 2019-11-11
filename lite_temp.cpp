@@ -17,7 +17,6 @@ const int weirdmod=998244353;
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define ford(i, n) for (int i = (int)(n) - 1; i >= 0; --i)
-#define f1(i,a,b) for(int i=a; i<=b; i++)
 #define rep(i,a,b) for(int i=a; i<b; i++)
 #define NFOR(i,a,b) for(int i=(a);i>=(b);--i)
  
@@ -35,13 +34,6 @@ typedef vector<ll> vll;
 template<typename T> T gcd(T a, T b){return(b?__gcd(a,b):a);}
 template<typename T> T lcm(T a, T b){return(a*(b/gcd(a,b)));}
  
-
-auto clk=clock();
-mt19937_64 rang(chrono::high_resolution_clock::now().time_since_epoch().count());
-int rng(int lim) {
-    uniform_int_distribution<int> uid(0,lim-1);
-    return uid(rang);
-}
 
 #ifdef np
 #define trace(...) cout<<"Line:"<<__LINE__<<" "; __f(#__VA_ARGS__, __VA_ARGS__)
@@ -73,7 +65,7 @@ signed main(){
     }
  
 #ifdef np
-    cout<<endl<<endl<<endl<<endl<<"Time elapsed: "<<(double)(clock()-clk)/CLOCKS_PER_SEC<<endl;
+    cerr << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC << " s.\n";
 #endif
     return 0;
 }
