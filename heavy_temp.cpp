@@ -7,7 +7,6 @@ const int infi=0x3f3f3f3f;
 const int weirdmod=998244353; 
 #define start() ios::sync_with_stdio(false); cin.tie(nullptr);
 #define MOD 1000000007
-#define sd(x) scanf("%d", &(x))
 #define mp make_pair
 #define fi first
 #define se second
@@ -16,11 +15,9 @@ const int weirdmod=998244353;
 #define sz(x) int (x.size())
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
-#define ford(i, n) for (int i = (int)(n) - 1; i >= 0; --i)
 #define rep(i,a,b) for(int i=a; i<b; i++)
 #define NFOR(i,a,b) for(int i=(a);i>=(b);--i)
- 
- 
+
 using ll =  long long ;
 using namespace std;
  
