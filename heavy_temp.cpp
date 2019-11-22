@@ -4,7 +4,7 @@
  
 const long long infl=0x3f3f3f3f3f3f3f3fLL;
 const int infi=0x3f3f3f3f;
-const int weirdmod=998244353; 
+const int modo=998244353; 
 #define start() ios::sync_with_stdio(false); cin.tie(nullptr);
 #define MOD 1000000007
 #define mp make_pair
