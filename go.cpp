@@ -6,6 +6,7 @@ using namespace std;
 #define trav(a, x) for(auto& a : x)
 #define all(x) begin(x), end(x)
 #define sz(x) (int)(x).size()
+#define pb push_back
 typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
