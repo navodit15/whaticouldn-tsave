@@ -8,9 +8,7 @@ using namespace std;
 #define rall(x) (x).rbegin(), (x).rend()
 #define sz(x) (int)(x).size()
 #define pb push_back
-typedef long long ll;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
+typedef long long ll;typedef pair<int, int> pii;typedef vector<int> vi;
 template<typename T> T gcd(T a, T b){return(b?__gcd(a,b):a);}
 template<typename T> T lcm(T a, T b){return(a*(b/gcd(a,b)));}
 template<class T> ostream& operator<<(ostream &os, vector<T> V) {os << "[ "; for(auto v : V) os << v << " "; return os << "]";}
